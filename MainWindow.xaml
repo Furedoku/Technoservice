@@ -1,0 +1,20 @@
+﻿<Window x:Class="TechnoServiceProject.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:TechnoServiceProject"
+        mc:Ignorable="d"
+        Title="Техносервис - Авторизация" Height="450" Width="800" ResizeMode="NoResize" WindowStartupLocation="CenterScreen">
+    <Grid Margin="0,0,4,2">
+        <StackPanel>
+            <Label Content="Авторизация                                                       Техносервис" HorizontalAlignment="Center" VerticalAlignment="Top" Margin="10,0,347,0" Width="443"/>
+        </StackPanel>
+        <Label Content="Логин" Margin="28,96,692,288"/>
+        <Label Content="Пароль" Margin="28,155,692,229" RenderTransformOrigin="-2.179,0.216"/>
+        <TextBox x:Name="loginBox" HorizontalAlignment="Left" TextWrapping="Wrap" VerticalAlignment="Top" Width="591" Margin="107,96,0,0" Height="38"/>
+        <PasswordBox x:Name="passBox" HorizontalAlignment="Left" VerticalAlignment="Top" Width="591" Margin="107,155,0,0" Height="36"/>
+        <Button x:Name="enterBtn" Click="enterBtn_Click"  Content="Вход" HorizontalAlignment="Left" VerticalAlignment="Top" Width="74" Margin="360,286,0,0" Height="36"/>
+        <Button x:Name="regBtn" Click="regBtn_Click" Content="Регистрация" HorizontalAlignment="Left" VerticalAlignment="Top" Width="150" Margin="314,223,0,0" Height="38" RenderTransformOrigin="1.526,0.629"/>
+    </Grid>
+</Window>
